@@ -1,0 +1,25 @@
+import copy
+
+def cnegative(x):
+    return 1 - x - cnegative.theta
+
+#想通过deepcopy(cnenative)使两个cnenative可以有不同的参数theta
+#但是deepcopy完地址还是一样
+a = copy.deepcopy(cnegative)
+b = copy.deepcopy(cnegative)
+'''
+print(id(cnegative))
+print(id(a))
+print(id(b))
+'''
+a.theta = 1
+b.theta = 2
+#a.theta 和 b.theta都是2
+
+#想让a.theta是1。。
+
+
+
+
+
+

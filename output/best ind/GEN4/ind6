@@ -1,0 +1,10 @@
+// NGEN
+digraph {
+	0 [label=ORN1]
+	1 [label=x2]
+	2 [label=Positive]
+	3 [label=x1]
+	0 -> 1
+	0 -> 2
+	2 -> 3
+}

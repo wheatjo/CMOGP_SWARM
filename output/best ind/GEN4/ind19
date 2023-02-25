@@ -1,0 +1,12 @@
+// NGEN
+digraph {
+	0 [label=ORN1]
+	1 [label=NAND]
+	2 [label=x2]
+	3 [label=x1]
+	4 [label=x2]
+	0 -> 1
+	1 -> 2
+	1 -> 3
+	0 -> 4
+}

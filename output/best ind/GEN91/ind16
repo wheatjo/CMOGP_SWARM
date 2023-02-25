@@ -1,0 +1,58 @@
+// NGEN
+digraph {
+	0 [label=AND1]
+	1 [label=ANDN]
+	2 [label=Negative]
+	3 [label=XOR1]
+	4 [label=AND1]
+	5 [label=x2]
+	6 [label=x2]
+	7 [label=ORN1]
+	8 [label=AND1]
+	9 [label=x2]
+	10 [label=XNOR]
+	11 [label=NAND]
+	12 [label=x2]
+	13 [label=x2]
+	14 [label=AND1]
+	15 [label=x2]
+	16 [label=x1]
+	17 [label=x2]
+	18 [label=AND1]
+	19 [label=XOR1]
+	20 [label=x1]
+	21 [label=x1]
+	22 [label=ORN1]
+	23 [label=x1]
+	24 [label=x2]
+	25 [label=XNOR]
+	26 [label=x1]
+	27 [label=x1]
+	0 -> 1
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	4 -> 6
+	3 -> 7
+	7 -> 8
+	8 -> 9
+	8 -> 10
+	10 -> 11
+	11 -> 12
+	11 -> 13
+	10 -> 14
+	14 -> 15
+	14 -> 16
+	7 -> 17
+	1 -> 18
+	18 -> 19
+	19 -> 20
+	19 -> 21
+	18 -> 22
+	22 -> 23
+	22 -> 24
+	0 -> 25
+	25 -> 26
+	25 -> 27
+}
